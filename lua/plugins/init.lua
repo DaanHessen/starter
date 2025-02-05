@@ -4,7 +4,7 @@ return {
   { import = "plugins.git" },
   { import = "plugins.transparency" },
   { import = "plugins.autocomplete" },
-  { import = "plugins.copilot" },
+  -- { import = "plugins.copilot" },
   { import = "plugins.editorconfig" },
   { import = "plugins.colorschemes" },
   { import = "plugins.markdown" },
@@ -12,5 +12,5 @@ return {
   { import = "plugins.neoscroll" },
   { import = "plugins.smearcursor" },
   { import = "plugins.codecompanion" },
+  { import = "plugins.comment" },
 }
-
