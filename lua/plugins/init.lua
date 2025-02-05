@@ -8,4 +8,9 @@ return {
   { import = "plugins.editorconfig" },
   { import = "plugins.colorschemes" },
   { import = "plugins.markdown" },
-} 
+  { import = "plugins.neogit" },
+  { import = "plugins.neoscroll" },
+  { import = "plugins.smearcursor" },
+  { import = "plugins.codecompanion" },
+}
+

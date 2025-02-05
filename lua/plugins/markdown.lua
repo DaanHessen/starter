@@ -23,7 +23,7 @@ return {
       vim.g.mkdp_open_to_the_world = 0
       vim.g.mkdp_browser = ""
       vim.g.mkdp_echo_preview_url = 1
-      vim.g.mkdp_page_title = '「${name}」'
+      vim.g.mkdp_page_title = "「${name}」"
     end,
     keys = {
       { "<leader>cp", "<cmd>MarkdownPreview<cr>", desc = "Start Markdown Preview" },
@@ -85,4 +85,5 @@ return {
       { "<leader>mr", "<cmd>RenderMarkdownToggle<cr>", desc = "Toggle Markdown Rendering" },
     },
   },
-} 
+}
+
